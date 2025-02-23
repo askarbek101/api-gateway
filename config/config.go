@@ -60,8 +60,8 @@ func LoadConfig() (*Config, error) {
 	})
 
 	// Redis defaults
-	viper.SetDefault("redis.host", "localhost")
-	viper.SetDefault("redis.port", "6379")
+	viper.SetDefault("redis.host", "gqetIorpvdYUyjDtOYwIzDhaiiQUoEOx@tramway.proxy.rlwy.net")
+	viper.SetDefault("redis.port", "11897")
 	viper.SetDefault("redis.db", 0)
 
 	// JWT defaults
